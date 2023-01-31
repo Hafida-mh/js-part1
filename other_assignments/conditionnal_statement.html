@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Conditionnal statement loop </title>
+</head>
+<body>
+    <script>
+        // Display the largest integer 
+     function compaireNumber(firstInteger,  secondInteger) {
+        const soustraction =  firstInteger - secondInteger;
+         if(soustraction > 0) {
+         console.log(`${firstInteger} is bigger`)
+          } else if (soustraction < 0) {
+         console.log(`${secondInteger} is bigger`)
+          }
+     }
+
+     compaireNumber(3, 7)
+     
+      // check if the number is even 
+      function integerType(integer) {
+        if (integer % 2 == 0) {
+            console.log('This is a even integer')
+        } else {
+            console.log('This is a odd integer')
+        }
+      }
+      integerType(7)
+    </script>
+</body>
+</html>
